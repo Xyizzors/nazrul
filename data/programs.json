@@ -1,0 +1,154 @@
+{
+  "programs": [
+    {
+      "en": "Nazrul Sangeet Workshop",
+      "bn": "নজরুল সংগীত কর্মশালা",
+      "sched_en": "12–18 Apr 2026 · Evenings",
+      "sched_bn": "১২–১৮ এপ্রিল ২০২৬ · সান্ধ্যকালীন",
+      "desc_en": "A hands-on workshop covering the fundamentals of Nazrul Sangeet vocal technique.",
+      "desc_bn": "নজরুল সংগীতের মৌলিক কণ্ঠশৈলী নিয়ে একটি হাতে-কলমে কর্মশালা।",
+      "photo": ""
+    },
+    {
+      "en": "Tabla for Beginners",
+      "bn": "তবলা শিক্ষা (প্রাথমিক)",
+      "sched_en": "Starts 3 Jun 2026 · 10 weeks",
+      "sched_bn": "শুরু ৩ জুন ২০২৬ · ১০ সপ্তাহ",
+      "desc_en": "A ten-week introductory course in tabla, open to new students.",
+      "desc_bn": "নতুন শিক্ষার্থীদের জন্য দশ সপ্তাহের তবলা শিক্ষার প্রাথমিক কোর্স।",
+      "photo": ""
+    },
+    {
+      "en": "Bengali Poetry Appreciation Circle",
+      "bn": "বাংলা কবিতা রসগ্রহণ চক্র",
+      "sched_en": "Monthly · Last Friday",
+      "sched_bn": "মাসিক · শেষ শুক্রবার",
+      "desc_en": "A recurring reading circle exploring Nazrul's poems alongside contemporary Bengali verse.",
+      "desc_bn": "নজরুলের কবিতার পাশাপাশি সমসাময়িক বাংলা কবিতা নিয়ে আলোচনার নিয়মিত আসর।",
+      "photo": ""
+    },
+    {
+      "en": "Classical Dance Foundation Course",
+      "bn": "শাস্ত্রীয় নৃত্য ভিত্তি কোর্স",
+      "sched_en": "Starts 1 Jul 2026 · 12 weeks",
+      "sched_bn": "শুরু ১ জুলাই ২০২৬ · ১২ সপ্তাহ",
+      "desc_en": "An introductory course in classical dance forms performed to Nazrul's compositions.",
+      "desc_bn": "নজরুলের রচনার সাথে পরিবেশিত শাস্ত্রীয় নৃত্যরীতির প্রাথমিক কোর্স।",
+      "photo": ""
+    },
+    {
+      "en": "Harmonium & Composition Basics",
+      "bn": "হারমোনিয়াম ও সুর রচনা প্রাথমিক পাঠ",
+      "sched_en": "Starts 15 Jun 2026 · 8 weeks",
+      "sched_bn": "শুরু ১৫ জুন ২০২৬ · ৮ সপ্তাহ",
+      "desc_en": "Learn harmonium fundamentals and simple melodic composition.",
+      "desc_bn": "হারমোনিয়ামের প্রাথমিক পাঠ ও সাধারণ সুর রচনা শেখানো হবে।",
+      "photo": ""
+    },
+    {
+      "en": "Children's Summer Cultural Camp",
+      "bn": "শিশুদের গ্রীষ্মকালীন সাংস্কৃতিক ক্যাম্প",
+      "sched_en": "20–30 Jun 2026 · Mornings",
+      "sched_bn": "২০–৩০ জুন ২০২৬ · সকালকালীন",
+      "desc_en": "A short camp introducing children to song, recitation and simple stagecraft.",
+      "desc_bn": "শিশুদের গান, আবৃত্তি ও সাধারণ মঞ্চশিল্পের সাথে পরিচয় করানোর সংক্ষিপ্ত ক্যাম্প।",
+      "photo": ""
+    }
+  ],
+  "texts": [
+    {
+      "id": "t1",
+      "_where": "Page · Paragraph",
+      "en": "Sample registration form — not connected to a live system in this prototype.",
+      "bn": "নমুনা নিবন্ধন ফর্ম — এই প্রোটোটাইপে সরাসরি কোনো সিস্টেমের সাথে যুক্ত নয়।"
+    },
+    {
+      "id": "t2",
+      "_where": "Page · Text",
+      "en": "Program Registration",
+      "bn": "কর্মসূচি নিবন্ধন"
+    },
+    {
+      "id": "t3",
+      "_where": "Page · Form message",
+      "en": "Thank you — this is a prototype, so no data has actually been submitted.",
+      "bn": "ধন্যবাদ — এটি একটি প্রোটোটাইপ, তাই কোনো তথ্য প্রকৃতপক্ষে জমা হয়নি।"
+    },
+    {
+      "id": "t4",
+      "_where": "Page · Form label",
+      "en": "Full Name",
+      "bn": "পূর্ণ নাম"
+    },
+    {
+      "id": "t5",
+      "_where": "Page · Form label",
+      "en": "Phone",
+      "bn": "ফোন নম্বর"
+    },
+    {
+      "id": "t6",
+      "_where": "Page · Form label",
+      "en": "Email",
+      "bn": "ইমেইল"
+    },
+    {
+      "id": "t7",
+      "_where": "Page · Form label",
+      "en": "Program",
+      "bn": "কর্মসূচি"
+    },
+    {
+      "id": "t8",
+      "_where": "Page · Text",
+      "en": "Submit Registration",
+      "bn": "নিবন্ধন জমা দিন"
+    },
+    {
+      "id": "t9",
+      "_where": "Section 1 · Small label",
+      "en": "Learn With Us",
+      "bn": "আমাদের সাথে শিখুন"
+    },
+    {
+      "id": "t10",
+      "_where": "Section 1 · Heading",
+      "en": "Programs & Registration",
+      "bn": "কর্মসূচি ও নিবন্ধন"
+    },
+    {
+      "id": "t11",
+      "_where": "Section 1 · Paragraph",
+      "en": "Courses and workshops in music, dance, poetry and performing arts, open to the public.",
+      "bn": "সংগীত, নৃত্য, কবিতা ও পরিবেশন শিল্পে জনসাধারণের জন্য উন্মুক্ত কোর্স ও কর্মশালা।"
+    },
+    {
+      "id": "t12",
+      "_where": "Section 2 · Text",
+      "en": "Register",
+      "bn": "নিবন্ধন করুন"
+    }
+  ],
+  "images": [],
+  "extras": [],
+  "meta": [
+    {
+      "title": "Programs & Registration",
+      "description": "Cultural programs, courses and workshops at Nazrul Academy."
+    }
+  ],
+  "sections": [
+    {
+      "_n": 1,
+      "_title": "Learn With Us"
+    },
+    {
+      "_n": 2,
+      "_title": "Register"
+    },
+    {
+      "_n": 3,
+      "_title": "registerModal"
+    }
+  ]
+}

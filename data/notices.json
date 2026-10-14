@@ -1,0 +1,95 @@
+{
+  "notices": [
+    {
+      "en": "Academy closed for Independence Day",
+      "bn": "স্বাধীনতা দিবস উপলক্ষে একাডেমী বন্ধ থাকবে",
+      "date": "26 Mar 2026"
+    },
+    {
+      "en": "Applications open for Autumn music workshop",
+      "bn": "শরৎকালীন সংগীত কর্মশালায় আবেদন শুরু",
+      "date": "14 Mar 2026"
+    },
+    {
+      "en": "Notice regarding annual Nazrul Jayanti program",
+      "bn": "বার্ষিক নজরুল জয়ন্তী অনুষ্ঠান সংক্রান্ত বিজ্ঞপ্তি",
+      "date": "02 Mar 2026"
+    },
+    {
+      "en": "Reading room to remain open on public holidays this month",
+      "bn": "এই মাসে সরকারি ছুটির দিনেও পাঠকক্ষ খোলা থাকবে",
+      "date": "20 Feb 2026"
+    },
+    {
+      "en": "Call for submissions — Nazrul Academy Journal 2026",
+      "bn": "লেখা আহ্বান — নজরুল একাডেমী জার্নাল ২০২৬",
+      "date": "08 Feb 2026"
+    },
+    {
+      "en": "Revised office hours during winter term",
+      "bn": "শীতকালীন মেয়াদে সংশোধিত কার্যালয় সময়সূচি",
+      "date": "25 Jan 2026"
+    },
+    {
+      "en": "Notice on library membership renewal",
+      "bn": "গ্রন্থাগার সদস্যপদ নবায়ন সংক্রান্ত বিজ্ঞপ্তি",
+      "date": "12 Jan 2026"
+    }
+  ],
+  "texts": [
+    {
+      "id": "t1",
+      "_where": "Section 1 · Small label",
+      "en": "Announcements",
+      "bn": "ঘোষণা"
+    },
+    {
+      "id": "t2",
+      "_where": "Section 1 · Heading",
+      "en": "Notice Board",
+      "bn": "বিজ্ঞপ্তি বোর্ড"
+    },
+    {
+      "id": "t3",
+      "_where": "Section 1 · Paragraph",
+      "en": "Official announcements and circulars from Nazrul Academy.",
+      "bn": "নজরুল একাডেমীর অফিসিয়াল ঘোষণা ও প্রজ্ঞাপন।"
+    },
+    {
+      "id": "t4",
+      "_where": "Section 2 · Paragraph",
+      "en": "Sample notices shown for the prototype. The final notice board will be updated directly by academy staff.",
+      "bn": "প্রোটোটাইপের জন্য নমুনা বিজ্ঞপ্তি প্রদর্শিত হয়েছে। চূড়ান্ত বিজ্ঞপ্তি বোর্ড একাডেমীর কর্মীরা সরাসরি হালনাগাদ করবেন।"
+    },
+    {
+      "id": "t5",
+      "_where": "Section 2 · Text",
+      "en": "Notice",
+      "bn": "বিজ্ঞপ্তি"
+    },
+    {
+      "id": "t6",
+      "_where": "Section 2 · Text",
+      "en": "Download",
+      "bn": "ডাউনলোড"
+    }
+  ],
+  "images": [],
+  "extras": [],
+  "meta": [
+    {
+      "title": "Notice Board",
+      "description": "Official notices and circulars from Nazrul Academy."
+    }
+  ],
+  "sections": [
+    {
+      "_n": 1,
+      "_title": "Announcements"
+    },
+    {
+      "_n": 2,
+      "_title": "Sample notices shown for the prototype. The final notice boa"
+    }
+  ]
+}
