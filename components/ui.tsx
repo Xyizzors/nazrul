@@ -7,6 +7,7 @@ export interface HeroProps {
   title_bn: string;
   desc_en?: string;
   desc_bn?: string;
+  showEyebrow?: boolean;
 }
 export const ICON = {
   search: (
@@ -217,6 +218,7 @@ export function innerHero({
   title_bn,
   desc_en,
   desc_bn,
+  showEyebrow = false,
 }: HeroProps) {
   return (
     <section className="bg-green-950 text-cream-50 relative overflow-hidden">
@@ -227,9 +229,11 @@ export function innerHero({
         }}
       ></div>
       <div className="wrap py-16 sm:py-20 relative">
-        <span className="eyebrow text-gold-300">
-          {bilingual(eyebrow_en, eyebrow_bn)}
-        </span>
+        {showEyebrow && (
+          <span className="eyebrow text-gold-300">
+            {bilingual(eyebrow_en, eyebrow_bn)}
+          </span>
+        )}
         <h1 className="font-display text-4xl sm:text-5xl mt-4 font-medium max-w-2xl">
           {bilingual(title_en, title_bn)}
         </h1>

@@ -4,6 +4,7 @@ import Link from "next/link";
 import data_about_nazrul from "@/data/about-nazrul.json";
 import { textMap, slotMap } from "@/lib/content";
 import ExtraImages from "@/components/ExtraImages";
+import ImageZoom from "@/components/ImageZoom";
 
 export function generateMetadata(): Metadata {
   const { title, description } = data_about_nazrul.meta[0];
@@ -30,7 +31,7 @@ export default function AboutNazrulPage() {
       })}
       <ExtraImages items={data_about_nazrul.extras} after={1} />
 
-      <section id="biography" className="section-pad">
+      <section id="biography" data-zoom className="section-pad">
         <div className="wrap grid lg:grid-cols-2 gap-14 items-start">
           <div className="flex flex-col gap-8">
             <figure>
@@ -56,7 +57,6 @@ export default function AboutNazrulPage() {
             </figure>
           </div>
           <div>
-            <span className="eyebrow">{bilingual(txt.t5.en, txt.t5.bn)}</span>
             <h2 className="font-display text-3xl mt-4 text-green-900 font-medium">
               {bilingual(txt.t6.en, txt.t6.bn)}
             </h2>
@@ -81,9 +81,7 @@ export default function AboutNazrulPage() {
       <section className="section-pad bg-green-950 text-cream-50">
         <div className="wrap">
           <div className="text-center max-w-xl mx-auto mb-14">
-            <span className="eyebrow text-gold-300 justify-center">
-              {bilingual(txt.t7.en, txt.t7.bn)}
-            </span>
+            
             <h2 className="font-display text-3xl mt-4 font-medium">
               {bilingual(txt.t8.en, txt.t8.bn)}
             </h2>
@@ -112,9 +110,7 @@ export default function AboutNazrulPage() {
       <section id="songs" className="section-pad">
         <div className="wrap">
           <div className="text-center max-w-xl mx-auto mb-14">
-            <span className="eyebrow justify-center">
-              {bilingual(txt.t10.en, txt.t10.bn)}
-            </span>
+            
             <h2 className="font-display text-3xl mt-4 text-green-900 font-medium">
               {bilingual(txt.t11.en, txt.t11.bn)}
             </h2>
@@ -149,12 +145,10 @@ export default function AboutNazrulPage() {
       </section>
       <ExtraImages items={data_about_nazrul.extras} after={4} />
 
-      <section className="section-pad bg-cream-100">
+      <section data-zoom className="section-pad bg-cream-100">
         <div className="wrap">
           <div className="text-center max-w-xl mx-auto mb-10">
-            <span className="eyebrow justify-center">
-              {bilingual(txt.t13.en, txt.t13.bn)}
-            </span>
+            
             <h2 className="font-display text-3xl mt-4 text-green-900 font-medium">
               {bilingual(txt.t14.en, txt.t14.bn)}
             </h2>
@@ -181,6 +175,7 @@ export default function AboutNazrulPage() {
         </div>
       </section>
       <ExtraImages items={data_about_nazrul.extras} after={5} />
+      <ImageZoom />
     </>
   );
 }

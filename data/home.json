@@ -67,8 +67,8 @@
     {
       "id": "t1",
       "_where": "heroSection · Paragraph",
-      "en": "Dedicated to the life, literature and music of Kazi Nazrul Islam — the national poet of Bangladesh — through research, performance and public education.",
-      "bn": "কাজী নজরুল ইসলাম — বাংলাদেশের জাতীয় কবি — এর জীবন, সাহিত্য ও সংগীতের প্রতি নিবেদিত, গবেষণা, পরিবেশনা এবং জনশিক্ষার মাধ্যমে।"
+      "en": "",
+      "bn": ""
     },
     {
       "id": "t2",
@@ -79,17 +79,17 @@
     {
       "id": "t3",
       "_where": "heroSection · Text",
-      "text": "Preserving the Legacy of the"
+      "text": "Dedicated to the study, promotion, dissemination, and research of the musical and literary works of the national poet"
     },
     {
       "id": "t4",
       "_where": "heroSection · Text",
-      "text": "National Poet"
+      "text": " Kazi Nazrul Islam."
     },
     {
       "id": "t5",
       "_where": "heroSection · Text",
-      "text": "জাতীয় কবির উত্তরাধিকার সংরক্ষণে"
+      "text": "জাতীয় কবি কাজী নজরুল ইসলাম এর সঙ্গীত ও সাহিত্যিক সৃষ্টিকর্ম চর্চা, প্রচার-প্রসার ও গবেষণায় নিবেদিত পথিকৃৎ , দেশের প্রাচীনতম প্রতিষ্ঠান নজরুল একাডেমী।"
     },
     {
       "id": "t6",
@@ -106,12 +106,12 @@
     {
       "id": "t8",
       "_where": "heroSection · Text",
-      "text": "Photographs and figures below are prototype placeholders"
+      "text": ""
     },
     {
       "id": "t9",
       "_where": "heroSection · Text",
-      "text": "নিচের ছবি ও তথ্য প্রোটোটাইপের নমুনা মাত্র"
+      "text": ""
     },
     {
       "id": "t10",

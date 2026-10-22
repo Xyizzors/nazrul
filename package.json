@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "edit": "node scripts/edit.mjs",
     "build": "next build",
     "typecheck": "tsc --noEmit"
   },

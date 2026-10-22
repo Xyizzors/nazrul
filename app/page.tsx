@@ -4,6 +4,7 @@ import Link from "next/link";
 import { Fragment } from "react";
 import data_notices from "@/data/notices.json";
 import data_home from "@/data/home.json";
+import data_events from "@/data/events.json";
 import data_site from "@/data/site.json";
 import data_activities from "@/data/activities.json";
 import { textMap, slotMap } from "@/lib/content";
@@ -16,7 +17,9 @@ export function generateMetadata(): Metadata {
 }
 
 const txt = textMap(data_home.texts);
+const eventTxt = textMap(data_events.texts);
 const imgs = slotMap(data_home.images);
+const [banglaBeforeName, banglaAfterName] = txt.t5.text.split("কাজী নজরুল ইসলাম");
 
 function heroSection() {
   return (
@@ -37,7 +40,11 @@ function heroSection() {
               {txt.t3.text}{" "}
               <em className="italic text-gold-300">{txt.t4.text}</em>
             </span>
-            <span className="lang-bn">{txt.t5.text}</span>
+            <span className="lang-bn">
+              {banglaBeforeName}
+              <em className="italic text-gold-300">কাজী নজরুল ইসলাম</em>
+              {banglaAfterName}
+            </span>
           </h1>
           <p className="mt-6 text-cream-100/80 text-[1.05rem] leading-relaxed lang-en">
             {txt.t1.en}
@@ -52,14 +59,6 @@ function heroSection() {
             <Link href="/programs/" className="btn btn-outline">
               {bilingual(txt.t7.en, txt.t7.bn)}
             </Link>
-          </div>
-          <div className="mt-10 flex items-center gap-3 text-xs text-cream-100/60 lang-en">
-            <span className="w-2 h-2 rounded-full bg-gold-300 inline-block"></span>
-            {txt.t8.text}
-          </div>
-          <div className="mt-10 flex items-center gap-3 text-xs text-cream-100/60 lang-bn">
-            <span className="w-2 h-2 rounded-full bg-gold-300 inline-block"></span>
-            {txt.t9.text}
           </div>
         </div>
         <div className="relative">
@@ -169,16 +168,15 @@ function noticesSection() {
     </section>
   );
 }
-function programsSection() {
-  const items = data_home.items;
+function upcomingEventsSection() {
+  const upcoming = data_events.upcoming.slice(0, 4);
   return (
     <section className="section-pad">
       <div className="wrap">
         <div className="flex flex-wrap items-end justify-between gap-4 mb-10">
           <div>
-            <span className="eyebrow">{bilingual(txt.t23.en, txt.t23.bn)}</span>
             <h2 className="font-display text-3xl mt-4 text-green-900 font-medium">
-              {bilingual(txt.t24.en, txt.t24.bn)}
+              {bilingual(eventTxt.t7.en, eventTxt.t7.bn)}
             </h2>
           </div>
           <Link href="/events/" className="btn btn-outline-dark btn-sm">
@@ -186,24 +184,14 @@ function programsSection() {
           </Link>
         </div>
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {items.map((i, __i) => (
+          {upcoming.map((event, __i) => (
             <div key={__i} className="card overflow-hidden flex flex-col">
-              {photo({ src: i.photo }, i.en + " — placeholder", "aspect-[4/3]")}
+              {photo({ src: event.photo }, event.en + " — placeholder", "aspect-[4/3]")}
               <div className="p-5 flex flex-col gap-2 flex-1">
-                <span className={`tag-pill tag-${i.tag} w-fit`}>
-                  {i.tag === "event"
-                    ? bilingual(txt.t26.en, txt.t26.bn)
-                    : bilingual(txt.t27.en, txt.t27.bn)}
-                </span>
                 <h3 className="font-display text-lg text-green-900 leading-snug">
-                  <span className="lang-en">{i.en}</span>
-                  <span className="lang-bn">{i.bn}</span>
+                  <span className="lang-en">{event.en}</span>
+                  <span className="lang-bn">{event.bn}</span>
                 </h3>
-                <p className="text-xs text-charcoal-500">{i.date}</p>
-                <p className="text-sm text-charcoal-700 leading-relaxed flex-1">
-                  <span className="lang-en">{i.desc_en}</span>
-                  <span className="lang-bn">{i.desc_bn}</span>
-                </p>
                 <Link
                   href="/events/"
                   className="text-sm font-semibold text-green-900 inline-flex items-center gap-1 mt-1"
@@ -418,7 +406,7 @@ export default function HomePage() {
       <ExtraImages items={data_home.extras} after={2} />
       {noticesSection()}
       <ExtraImages items={data_home.extras} after={3} />
-      {programsSection()}
+      {upcomingEventsSection()}
       <ExtraImages items={data_home.extras} after={4} />
       {activitiesSection()}
       <ExtraImages items={data_home.extras} after={5} />

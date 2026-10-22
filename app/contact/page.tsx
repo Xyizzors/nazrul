@@ -20,6 +20,7 @@ export default function ContactPage() {
       {innerHero({
         eyebrow_en: txt.t1.en,
         eyebrow_bn: txt.t1.bn,
+        showEyebrow: true,
         title_en: txt.t2.en,
         title_bn: txt.t2.bn,
         desc_en: txt.t3.en,

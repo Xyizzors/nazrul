@@ -1,16 +1,17 @@
 {
-  "upcoming": [
+  "upcoming": [],
+  "past": [
     {
-      "en": "Nazrul Sangeet Workshop",
-      "bn": "নজরুল সংগীত কর্মশালা",
-      "date": "12–18 Apr 2026",
-      "photo": "/assets/img/gallery/event-19.jpg"
+      "en": "Children's Summer Cultural Camp",
+      "bn": "শিশুদের গ্রীষ্মকালীন সাংস্কৃতিক ক্যাম্প",
+      "date": "20–30 Jun 2026",
+      "photo": "/assets/img/gallery/event-45.jpg"
     },
     {
-      "en": "Poetry Reading Evening",
-      "bn": "কবিতা পাঠের সন্ধ্যা",
-      "date": "24 Apr 2026",
-      "photo": "/assets/img/gallery/event-48.jpg"
+      "en": "Tabla for Beginners",
+      "bn": "তবলা শিক্ষা (শিক্ষার্থী পর্যায়)",
+      "date": "Starts 3 Jun 2026",
+      "photo": "/assets/img/gallery/event-21.jpg"
     },
     {
       "en": "Annual Nazrul Jayanti",
@@ -19,13 +20,17 @@
       "photo": "/assets/img/gallery/event-17.jpg"
     },
     {
-      "en": "Children's Summer Cultural Camp",
-      "bn": "শিশুদের গ্রীষ্মকালীন সাংস্কৃতিক ক্যাম্প",
-      "date": "20–30 Jun 2026",
-      "photo": "/assets/img/gallery/event-45.jpg"
-    }
-  ],
-  "past": [
+      "en": "Poetry Reading Evening",
+      "bn": "কবিতা পাঠের সন্ধ্যা",
+      "date": "24 Apr 2026",
+      "photo": "/assets/img/gallery/event-48.jpg"
+    },
+    {
+      "en": "Nazrul Sangeet Workshop",
+      "bn": "নজরুল সংগীত কর্মশালা",
+      "date": "12–18 Apr 2026",
+      "photo": "/assets/img/gallery/event-19.jpg"
+    },
     {
       "en": "Annual Winter Cultural Fair",
       "bn": "বার্ষিক শীতকালীন সাংস্কৃতিক মেলা",
@@ -106,7 +111,7 @@
   "meta": [
     {
       "title": "Events",
-      "description": "Upcoming and past events at Nazrul Academy."
+      "description": "Nazrul Academy — preserving the legacy of the national poet, Kazi Nazrul Islam."
     }
   ],
   "sections": [

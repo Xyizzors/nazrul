@@ -15,6 +15,10 @@ const txt = textMap(site.texts);
 export const metadata: Metadata = {
   title: { default: site_name, template: `%s — ${title_suffix}` },
   description,
+  icons: {
+    icon: "/assets/img/brand/nazrul-academy-favicon-v2.png",
+    shortcut: "/assets/img/brand/nazrul-academy-favicon-v2.png",
+  },
 };
 
 const FONTS =

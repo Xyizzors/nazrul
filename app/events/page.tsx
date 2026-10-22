@@ -30,7 +30,6 @@ export default function EventsPage() {
               <span className="lang-en">{e.en}</span>
               <span className="lang-bn">{e.bn}</span>
             </h3>
-            <p className="text-xs text-charcoal-500 mt-1">{e.date}</p>
             <a
               href="#"
               className="text-sm font-semibold text-green-900 inline-flex items-center gap-1 mt-2"
@@ -56,16 +55,18 @@ export default function EventsPage() {
       })}
       <ExtraImages items={data_events.extras} after={1} />
 
-      <section className="section-pad">
-        <div className="wrap">
-          <div className="flex items-end justify-between mb-10">
-            <h2 className="font-display text-3xl text-green-900 font-medium">
-              {bilingual(txt.t7.en, txt.t7.bn)}
-            </h2>
+      {upcoming.length > 0 && (
+        <section className="section-pad">
+          <div className="wrap">
+            <div className="flex items-end justify-between mb-10">
+              <h2 className="font-display text-3xl text-green-900 font-medium">
+                {bilingual(txt.t7.en, txt.t7.bn)}
+              </h2>
+            </div>
+            {grid(upcoming, "event")}
           </div>
-          {grid(upcoming, "event")}
-        </div>
-      </section>
+        </section>
+      )}
       <ExtraImages items={data_events.extras} after={2} />
 
       <section className="section-pad bg-cream-100">

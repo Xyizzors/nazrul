@@ -32,9 +32,6 @@ export const GROUPS: Record<string, Record<string, string>> = {
     admission: "Admission",
     "about-nazrul": "About Nazrul",
     contact: "Contact",
-    "nazrul-song": "Nazrul Song",
-    "nazrul-prose-and-poem": "Nazrul Prose & Poem",
-    "prose-and-poems": "Prose & Poems",
   },
 };
 
@@ -49,7 +46,6 @@ export const LISTS: Record<string, string> = {
   founders: "Founder & Co-Founder",
   gallery1: "Gallery 1",
   gallery2: "Gallery 2",
-  gallery3: "Gallery 3",
   timeline: "Timeline",
   archiveCaptioned: "Archive images",
   poemTypes: "Poem types",

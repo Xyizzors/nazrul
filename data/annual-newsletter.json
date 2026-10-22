@@ -1,46 +1,11 @@
 {
   "newsletters": [
     {
-      "year": "2025",
-      "title_en": "Annual Report 2025",
-      "title_bn": "বার্ষিক প্রতিবেদন ২০২৫",
-      "desc_en": "A comprehensive overview of programs, events and achievements from 2025.",
-      "desc_bn": "২০২৫ সালের কর্মসূচি, অনুষ্ঠান এবং অর্জনের একটি ব্যাপক পর্যালোচনা।"
-    },
-    {
-      "year": "2024",
-      "title_en": "Annual Report 2024",
-      "title_bn": "বার্ষিক প্রতিবেদন ২০২৪",
-      "desc_en": "Highlights of programs, workshops and cultural initiatives throughout 2024.",
-      "desc_bn": "২০২৪ জুড়ে কর্মসূচি, কর্মশালা এবং সাংস্কৃতিক উদ্যোগের হাইলাইট।"
-    },
-    {
-      "year": "2023",
-      "title_en": "Annual Report 2023",
-      "title_bn": "বার্ষিক প্রতিবেদন ২০২৩",
-      "desc_en": "Celebrating achievements and community engagement from 2023.",
-      "desc_bn": "২০২৩ সালের অর্জন এবং সম্প্রদায় সংযোগ উদযাপন।"
-    },
-    {
-      "year": "2022",
-      "title_en": "Annual Report 2022",
-      "title_bn": "বার্ষিক প্রতিবেদন ২০২২",
-      "desc_en": "Review of cultural initiatives, research projects and events in 2022.",
-      "desc_bn": "২০২২ সালে সাংস্কৃতিক উদ্যোগ, গবেষণা প্রকল্প এবং অনুষ্ঠানের পর্যালোচনা।"
-    },
-    {
-      "year": "2021",
-      "title_en": "Annual Report 2021",
-      "title_bn": "বার্ষিক প্রতিবেদন ২০২১",
-      "desc_en": "Summary of programs adapted for digital engagement during 2021.",
-      "desc_bn": "২০২১ সালে ডিজিটাল সংযোগের জন্য অভিযোজিত কর্মসূচির সারসংক্ষেপ।"
-    },
-    {
-      "year": "2020",
-      "title_en": "Annual Report 2020",
-      "title_bn": "বার্ষিক প্রতিবেদন ২০২০",
-      "desc_en": "Highlights from the academy's transition to online programs.",
-      "desc_bn": "একাডেমীর অনলাইন কর্মসূচিতে রূপান্তরের হাইলাইট।"
+      "year": "2026",
+      "title_en": "Annual Report 2026",
+      "title_bn": "বার্ষিক প্রতিবেদন ২০২৬",
+      "desc_en": "An overview of programs, events and cultural initiatives from 2026.",
+      "desc_bn": "২০২৬ সালের কর্মসূচি, অনুষ্ঠান এবং সাংস্কৃতিক উদ্যোগের একটি পর্যালোচনা।"
     }
   ],
   "texts": [

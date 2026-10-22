@@ -28,7 +28,7 @@ export default function FoundersAndBoardPage() {
       <section className="section-pad bg-cream-100">
         <div className="wrap">
           <div className="text-center max-w-xl mx-auto mb-12">
-            <span className="eyebrow justify-center">{bilingual(txt.t4.en, txt.t4.bn)}</span>
+            
             <h2 className="font-display text-3xl mt-4 text-green-900 font-medium">
               {bilingual(txt.t5.en, txt.t5.bn)}
             </h2>
@@ -55,7 +55,7 @@ export default function FoundersAndBoardPage() {
       <section className="section-pad">
         <div className="wrap">
           <div className="text-center max-w-xl mx-auto mb-12">
-            <span className="eyebrow justify-center">{bilingual(txt.t7.en, txt.t7.bn)}</span>
+            
             <h2 className="font-display text-3xl mt-4 text-green-900 font-medium">
               {bilingual(txt.t8.en, txt.t8.bn)}
             </h2>
@@ -65,9 +65,8 @@ export default function FoundersAndBoardPage() {
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-6">
             {data_page.board.map((m, i) => (
               <div key={i} className="text-center">
-                {photo({ src: m.photo }, "Photo placeholder", "aspect-square", "!rounded-[6px]")}
-                <p className="mt-4 font-semibold text-charcoal-900 text-sm lang-en">{m.name_en}</p>
-                <p className="mt-4 font-semibold text-charcoal-900 text-sm lang-bn">{m.name_bn}</p>
+                <p className="font-semibold text-charcoal-900 text-sm lang-en">{m.name_en}</p>
+                <p className="font-semibold text-charcoal-900 text-sm lang-bn">{m.name_bn}</p>
                 <p className="text-xs text-charcoal-500 mt-1">
                   <span className="lang-en">{m.pos_en}</span>
                   <span className="lang-bn">{m.pos_bn}</span>

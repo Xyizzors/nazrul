@@ -23,8 +23,8 @@
       "bn": "একটি কোর্স নির্বাচন করুন এবং সময়সূচি দেখুন"
     },
     {
-      "en": "Complete the application form (online or download)",
-      "bn": "আবেদন ফর্ম পূরণ করুন (অনলাইন অথবা ডাউনলোড)"
+      "en": "Download and complete the application form",
+      "bn": "আবেদন ফর্ম ডাউনলোড করে পূরণ করুন"
     },
     {
       "en": "Submit required documents to the admission office",
@@ -57,8 +57,8 @@
     {
       "id": "t4",
       "_where": "Section 2 · Paragraph",
-      "en": "Nazrul Academy welcomes students of all ages to its music, dance and recitation courses. [Detailed admission criteria, fees and intake schedule to be provided by the academy.]",
-      "bn": "নজরুল একাডেমী সকল বয়সের শিক্ষার্থীদের সংগীত, নৃত্য ও আবৃত্তি কোর্সে স্বাগত জানায়। [বিস্তারিত ভর্তি মানদণ্ড, ফি ও ভর্তি সময়সূচি একাডেমী কর্তৃক প্রদান করা হবে।]"
+      "en": "Nazrul Academy welcomes students of all ages to its music, dance and recitation courses.",
+      "bn": "নজরুল একাডেমী সকল বয়সের শিক্ষার্থীদের সংগীত, নৃত্য ও আবৃত্তি কোর্সে স্বাগত জানায়।"
     },
     {
       "id": "t5",
@@ -77,12 +77,6 @@
       "_where": "Section 2 · Text",
       "en": "Download Form",
       "bn": "ফর্ম ডাউনলোড করুন"
-    },
-    {
-      "id": "t8",
-      "_where": "Section 2 · Text",
-      "en": "Apply Online",
-      "bn": "অনলাইনে আবেদন করুন"
     },
     {
       "id": "t9",
@@ -119,48 +113,6 @@
       "_where": "Section 4 · Text",
       "en": "Download Form",
       "bn": "ফর্ম ডাউনলোড করুন"
-    },
-    {
-      "id": "t15",
-      "_where": "Section 4 · Text",
-      "en": "Apply Online",
-      "bn": "অনলাইনে আবেদন করুন"
-    },
-    {
-      "id": "t16",
-      "_where": "Section 5 · Paragraph",
-      "en": "Sample application form — not connected to a live system in this prototype.",
-      "bn": "নমুনা আবেদন ফর্ম — এই প্রোটোটাইপে সরাসরি কোনো সিস্টেমের সাথে যুক্ত নয়।"
-    },
-    {
-      "id": "t17",
-      "_where": "Section 5 · Text",
-      "en": "Online Application",
-      "bn": "অনলাইন আবেদন"
-    },
-    {
-      "id": "t18",
-      "_where": "Section 5 · Form message",
-      "en": "Thank you — this is a prototype, so no data has actually been submitted.",
-      "bn": "ধন্যবাদ — এটি একটি প্রোটোটাইপ, তাই কোনো তথ্য প্রকৃতপক্ষে জমা হয়নি।"
-    },
-    {
-      "id": "t19",
-      "_where": "Section 5 · Form label",
-      "en": "Full Name",
-      "bn": "পূর্ণ নাম"
-    },
-    {
-      "id": "t20",
-      "_where": "Section 5 · Form label",
-      "en": "Course of Interest",
-      "bn": "আগ্রহের কোর্স"
-    },
-    {
-      "id": "t21",
-      "_where": "Section 5 · Text",
-      "en": "Submit Application",
-      "bn": "আবেদন জমা দিন"
     }
   ],
   "images": [
@@ -194,10 +146,6 @@
     {
       "_n": 4,
       "_title": "How to Apply"
-    },
-    {
-      "_n": 5,
-      "_title": "Online Application"
     }
   ]
 }

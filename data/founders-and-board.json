@@ -3,14 +3,14 @@
     {
       "id": "t1",
       "_where": "Top banner · Small label",
-      "en": "Leadership",
-      "bn": "নেতৃত্ব"
+      "en": "",
+      "bn": ""
     },
     {
       "id": "t2",
       "_where": "Top banner · Heading",
-      "en": "Founders & Board",
-      "bn": "প্রতিষ্ঠাতা ও পর্ষদ"
+      "en": "Founder, Co-founder, Founding Council, and Current Council",
+      "bn": "প্রতিষ্ঠাতা, সহ-প্রতিষ্ঠাতা, প্রতিষ্ঠাকালীন পরিষদ ও বর্তমান পরিষদ"
     },
     {
       "id": "t3",
@@ -21,8 +21,8 @@
     {
       "id": "t4",
       "_where": "Section 1 · Text",
-      "en": "People",
-      "bn": "ব্যক্তিত্ব"
+      "en": "",
+      "bn": ""
     },
     {
       "id": "t5",
@@ -33,8 +33,8 @@
     {
       "id": "t6",
       "_where": "Section 1 · Paragraph",
-      "en": "The people who founded Nazrul Academy. Names and photographs will be added soon.",
-      "bn": "যাঁরা নজরুল একাডেমী প্রতিষ্ঠা করেছেন। নাম ও ছবি শীঘ্রই যুক্ত করা হবে।"
+      "en": "",
+      "bn": ""
     },
     {
       "id": "t7",
@@ -46,13 +46,13 @@
       "id": "t8",
       "_where": "Section 2 · Heading",
       "en": "Executive Council",
-      "bn": "নির্বাহী পরিষদ"
+      "bn": "নজরুল একাডেমী বর্তমান নির্বাহী পরিষদ"
     },
     {
       "id": "t9",
       "_where": "Section 2 · Paragraph",
-      "en": "The current executive council of Nazrul Academy.",
-      "bn": "নজরুল একাডেমীর বর্তমান নির্বাহী পরিষদ।"
+      "en": "",
+      "bn": ""
     }
   ],
   "founders": [
@@ -75,7 +75,7 @@
     {
       "pos_en": "President",
       "pos_bn": "সভাপতি",
-      "name_en": "Mosoyud Mannan",
+      "name_en": "Mosud Mannan",
       "name_bn": "মসয়ূদ মান্নান",
       "photo": ""
     },
@@ -213,9 +213,7 @@
       "photo": ""
     }
   ],
-  "images": [
-    
-  ],
+  "images": [],
   "extras": [],
   "sections": [
     {

@@ -158,14 +158,9 @@
       "bn": "বিদ্রোহী কবিতার ৯০ বছর পূর্তি উপলক্ষে আয়োজিত “নজরুল উৎসব” অনুষ্ঠানে বক্তব্য।"
     },
     {
-      "src": "/assets/img/about/split/file2-09-2.jpg",
-      "en": "Academy leadership and guests at the “Nazrul Utsav” programme.",
-      "bn": "“নজরুল উৎসব” অনুষ্ঠানে একাডেমীর নেতৃবৃন্দ ও অতিথিবৃন্দ।"
-    },
-    {
       "src": "/assets/img/about/split/file2-10-1.jpg",
-      "en": "Academy colleagues at a programme.",
-      "bn": "একটি অনুষ্ঠানে একাডেমীর সহকর্মীবৃন্দ।"
+      "en": "An address at the “Nazrul Sammelan-1410” (2003) programme.",
+      "bn": "“নজরুল সম্মেলন-১৪১০” (২০০৩) অনুষ্ঠানে বক্তব্য।"
     },
     {
       "src": "/assets/img/about/split/file2-10-2.jpg",
@@ -181,9 +176,7 @@
       "src": "/assets/img/about/split/file2-11-2.jpg",
       "en": "A children's cultural troupe on stage.",
       "bn": "শিশু-শিল্পীদের সাংস্কৃতিক দল মঞ্চে।"
-    }
-  ],
-  "gallery3": [
+    },
     {
       "src": "/assets/img/about/split/file3-01-1.jpg",
       "en": "Nazrul Academy's leadership and guests at the Annual General Meeting and Election, 2011.",
@@ -205,57 +198,47 @@
       "bn": "“নজরুল শরণী” সংবর্ধনা অনুষ্ঠানে অতিথিবৃন্দ।"
     },
     {
-      "src": "/assets/img/about/split/file3-03-1.jpg",
-      "en": "A discussion meeting of academy officials.",
-      "bn": "একাডেমীর কর্মকর্তাদের একটি আলোচনা সভা।"
-    },
-    {
       "src": "/assets/img/about/split/file3-03-2.jpg",
-      "en": "Academy officials in conversation at the discussion meeting.",
-      "bn": "আলোচনা সভায় একাডেমীর কর্মকর্তাবৃন্দ।"
-    },
-    {
-      "src": "/assets/img/about/split/file3-03-3.jpg",
-      "en": "An address at the “Nazrul Sammelan-1410” (2003) programme.",
-      "bn": "“নজরুল সম্মেলন-১৪১০” (২০০৩) অনুষ্ঠানে বক্তব্য।"
+      "en": "Academy officials in conversation at a discussion meeting.",
+      "bn": "একটি আলোচনা সভায় একাডেমীর কর্মকর্তাবৃন্দ।"
     }
   ],
   "texts": [
     {
       "id": "t1",
       "_where": "Section 1 · Small label",
-      "en": "About the Academy",
-      "bn": "একাডেমী সম্পর্কে"
+      "en": "",
+      "bn": ""
     },
     {
       "id": "t2",
       "_where": "Section 1 · Heading",
       "en": "About Us",
-      "bn": "আমাদের কথা"
+      "bn": "নজরুল একাডেমী প্রাসঙ্গিক কথা"
     },
     {
       "id": "t3",
       "_where": "Section 1 · Paragraph",
-      "en": "A cultural institution in Dhaka dedicated to preserving and promoting the legacy of Kazi Nazrul Islam since 1968.",
-      "bn": "১৯৬৮ সাল থেকে কাজী নজরুল ইসলামের ঐতিহ্য সংরক্ষণ ও প্রচারে নিবেদিত ঢাকার একটি সাংস্কৃতিক প্রতিষ্ঠান।"
+      "en": "",
+      "bn": ""
     },
     {
       "id": "t4",
       "_where": "Section 2 · Paragraph",
-      "en": "Nazrul Academy is a prominent cultural institution in Dhaka dedicated to preserving and promoting the legacy of Kazi Nazrul Islam, the national poet of Bangladesh. The academy promotes Bangladeshi literature, music and performing arts through cultural programs, poetry readings, music performances, workshops and educational activities.",
-      "bn": "নজরুল একাডেমী ঢাকার একটি প্রখ্যাত সাংস্কৃতিক প্রতিষ্ঠান, যা বাংলাদেশের জাতীয় কবি কাজী নজরুল ইসলামের ঐতিহ্য সংরক্ষণ ও প্রচারে নিবেদিত। একাডেমী সাংস্কৃতিক অনুষ্ঠান, কবিতা পাঠ, সংগীত পরিবেশনা, কর্মশালা ও শিক্ষামূলক কার্যক্রমের মাধ্যমে বাংলাদেশের সাহিত্য, সংগীত ও পরিবেশন শিল্পের প্রসার ঘটায়।"
+      "en": "",
+      "bn": ""
     },
     {
       "id": "t5",
       "_where": "Section 2 · Paragraph",
       "en": "Nazrul Academy is committed to spreading the universal creative works of the national poet Kazi Nazrul Islam across the world. To properly propagate the message of human welfare that the humanist poet left behind in his music and literature, and to carry forward meticulous research on his works, Nazrul Academy runs a dedicated Music Department and continuously publishes research-based books and journals. Every year, students from our Music Department graduate with distinction and go on to establish themselves as celebrated, renowned musicians.",
-      "bn": "জাতীয় কবি কাজী নজরুল ইসলাম এর বৈশ্বিক সৃষ্টিকর্ম বিশ্বব্যাপী ছড়িয়ে দিতে নজরুল একাডেমী বদ্ধপরিকর। মানবতাবাদী কবি কাজী নজরুল ইসলাম তাঁর সঙ্গীতে এবং সাহিত্যে মানব কল্যাণের যে বারতা দিয়ে গেছেন, তার সঠিক প্রচার-প্রসার এবং তাঁর সৃষ্টিকর্মের গবেষণাকর্ম নিখুঁত পরিচালনার লক্ষ্যে নজরুল একাডেমী সঙ্গীত বিভাগ চালু রেখেছে এবং প্রতিনিয়ত গবেষণাধর্মী বই ও পত্রিকা প্রকাশ করে যাচ্ছে। আমাদের সঙ্গীত বিভাগ থেকে প্রতি বছর ছাত্র ছাত্রীরা কৃতিত্বের সাথে উত্তীর্ণ হচ্ছে এবং খ্যাতিমান, স্বনামধন্য সঙ্গীতশিল্পী হিসেবে প্রতিষ্ঠা পাচ্ছে।"
+      "bn": "নজরুল একাডেমী জাতীয় কবি কাজী নজরুল ইসলাম এর সঙ্গীত ও সাহিত্যিক সৃষ্টিকর্ম চর্চা, প্রচার-প্রসার এবং গবেষণায় নিয়োজিত পথিকৃৎ এবং প্রাচীনতম  প্রতিষ্ঠান। আমরা নজরুল সঙ্গীত ও আবৃত্তি প্রশিক্ষণ, সঙ্গীতানুষ্ঠান, কবিতা পাঠ ও সাহিত্য সভার আয়োজন, নজরুল সাহিত্যের ইংরেজী অনুবাদ, নজরুল গবেষণালব্ধ পুস্তক প্রকাশনা সহ বিভিন্ন সৃষ্টিশীল কর্মকান্ডে নিয়োজিত।"
     },
     {
       "id": "t6",
       "_where": "Section 2 · Text",
-      "en": "Overview",
-      "bn": "পরিচিতি"
+      "en": "",
+      "bn": ""
     },
     {
       "id": "t7",
@@ -267,37 +250,19 @@
       "id": "t8",
       "_where": "Section 3 · Paragraph",
       "en": "[Mission statement placeholder — to be provided by Nazrul Academy. Sample: to preserve, study and share the literary and musical legacy of Kazi Nazrul Islam for present and future generations.]",
-      "bn": "[লক্ষ্য বিবৃতি নমুনা — একাডেমী কর্তৃক প্রদান করা হবে। নমুনা: কাজী নজরুল ইসলামের সাহিত্য ও সংগীত ঐতিহ্য বর্তমান ও ভবিষ্যৎ প্রজন্মের জন্য সংরক্ষণ, গবেষণা ও প্রচার করা।]"
+      "bn": "জাতীয় কবি কাজী নজরুল ইসলাম এর সঙ্গীত ও সাহিত্যকর্ম চর্চা, প্রচার-প্রসার ও গবেষণার মাধ্যমে সারা বিশ্বে কাজী নজরুল ইসলাম এর বৈশ্বিক ও মানবিক  বার্তা ছড়িয়ে দেয়ার প্রয়াসে নজরুল একাডেমী বদ্ধপরিকর।"
     },
     {
       "id": "t9",
       "_where": "Section 3 · Text",
-      "en": "Mission",
-      "bn": "লক্ষ্য"
+      "en": "",
+      "bn": ""
     },
     {
       "id": "t10",
       "_where": "Section 3 · Text",
-      "en": "Our Mission",
-      "bn": "আমাদের লক্ষ্য"
-    },
-    {
-      "id": "t11",
-      "_where": "Section 3 · Paragraph",
-      "en": "[Vision statement placeholder — to be provided by Nazrul Academy. Sample: a vibrant cultural centre where Bengali literature, music and performing arts continue to flourish.]",
-      "bn": "[উদ্দেশ্য বিবৃতি নমুনা — একাডেমী কর্তৃক প্রদান করা হবে। নমুনা: একটি প্রাণবন্ত সাংস্কৃতিক কেন্দ্র, যেখানে বাংলা সাহিত্য, সংগীত ও পরিবেশন শিল্প ক্রমাগত বিকশিত হতে থাকবে।]"
-    },
-    {
-      "id": "t12",
-      "_where": "Section 3 · Text",
-      "en": "Vision",
-      "bn": "উদ্দেশ্য"
-    },
-    {
-      "id": "t13",
-      "_where": "Section 3 · Text",
-      "en": "Our Vision",
-      "bn": "আমাদের উদ্দেশ্য"
+      "en": "Our Mission and Vision",
+      "bn": "নজরুল একাডেমীর লক্ষ্য ও উদ্দেশ্য"
     },
     {
       "id": "t14",
@@ -333,25 +298,13 @@
       "id": "t19",
       "_where": "Section 5 · Text",
       "en": "Programs & Conferences Over the Years",
-      "bn": "বিভিন্ন সময়ের অনুষ্ঠান ও সম্মেলন"
-    },
-    {
-      "id": "t20",
-      "_where": "Section 6 · Text",
-      "en": "Archive",
-      "bn": "আর্কাইভ"
-    },
-    {
-      "id": "t21",
-      "_where": "Section 6 · Text",
-      "en": "Annual General Meeting & Election, 2011",
-      "bn": "বার্ষিক সাধারণ সভা ও নির্বাচন, ২০১১"
+      "bn": "বিভিন্ন সময়ের অনুষ্ঠান, সম্মেলন ও সভা"
     },
     {
       "id": "t26",
       "_where": "Section 4 · Text",
-      "en": "Our Story",
-      "bn": "আমাদের কথা"
+      "en": "",
+      "bn": ""
     },
     {
       "id": "t27",
@@ -363,7 +316,7 @@
       "id": "t28",
       "_where": "Section 4 · Paragraph (1964)",
       "en": "In 1964, the 65th Nazrul birth anniversary was celebrated at the Wari residence of Advocate Nurul Islam and poet Jahanara Arju, 11 Rankin Street, with Justice Abu Sayeed Chowdhury presiding and distinguished figures of the country attending. At that meeting it was announced, as a matter of urgency, that Nazrul Academy would be established.",
-      "bn": "উল্লেখ্য যে, ১৯৬৪ সালে এ্যাডভোকেট নুরুল ইসলাম ও কবি জাহানারা আরজুর ১১নং রাংকিন স্ট্রীট, ওয়ারীর বাসায় বিচারপতি আবু সাঈদ চৌধুরীর সভাপতিত্বে ও দেশের গণ্যমান্য ব্যক্তিবর্গের অংশগ্রহণে ৬৫তম নজরুল জন্মবার্ষিকী উদযাপিত হয়। ঐ সভায় জরুরী ভিত্তিতে নজরুল একাডেমী প্রতিষ্ঠা করার ঘোষণা করা হয়।"
+      "bn": "১৯৬৪ সালে এ্যাডভোকেট নুরুল ইসলাম ও কবি জাহানারা আরজুর ১১নং রাংকিন স্ট্রীট, ওয়ারীর বাসায় বিচারপতি আবু সাঈদ চৌধুরীর সভাপতিত্বে ও দেশের গণ্যমান্য ব্যক্তিবর্গের অংশগ্রহণে ৬৫তম নজরুল জন্মবার্ষিকী উদযাপিত হয়। ঐ সভায় জরুরী ভিত্তিতে নজরুল একাডেমী প্রতিষ্ঠা করার ঘোষণা করা হয়।"
     },
     {
       "id": "t29",
@@ -416,20 +369,20 @@
     {
       "id": "t40",
       "_where": "Internship · Text",
-      "en": "Opportunities",
-      "bn": "সুযোগ"
+      "en": "",
+      "bn": ""
     },
     {
       "id": "t41",
       "_where": "Internship · Text",
-      "en": "Internship Programme",
-      "bn": "ইন্টার্নশিপ কার্যক্রম"
+      "en": "",
+      "bn": ""
     },
     {
       "id": "t42",
       "_where": "Internship · Paragraph",
-      "en": "Details about internships at Nazrul Academy will be published here soon.",
-      "bn": "নজরুল একাডেমীতে ইন্টার্নশিপ সংক্রান্ত তথ্য শীঘ্রই এখানে প্রকাশ করা হবে।"
+      "en": "",
+      "bn": ""
     }
   ],
   "images": [],
@@ -467,10 +420,6 @@
     },
     {
       "_n": 7,
-      "_title": "Archive: AGM 2011"
-    },
-    {
-      "_n": 8,
       "_title": "Internship"
     }
   ]

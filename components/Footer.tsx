@@ -76,7 +76,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/admission/" className="footer-link">
+                <Link href="/programs/#admission" className="footer-link">
                   {bilingual(txt.t7.en, txt.t7.bn)}
                 </Link>
               </li>

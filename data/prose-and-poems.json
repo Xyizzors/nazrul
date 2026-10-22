@@ -1,13 +1,6 @@
 {
   "works": [
     {
-      "title_en": "Poetry Collections",
-      "title_bn": "কবিতা সংগ্রহ",
-      "year": "1920-1940",
-      "desc_en": "Nazrul's revolutionary verses and lyrical masterpieces.",
-      "desc_bn": "নজরুলের বিপ্লবী কবিতা এবং গীতিকাব্য নিদর্শন।"
-    },
-    {
       "title_en": "Essay Series",
       "title_bn": "প্রবন্ধ সিরিজ",
       "year": "1918-1950",
@@ -15,7 +8,7 @@
       "desc_bn": "সাহিত্য, সমাজ এবং সংস্কৃতি সম্পর্কে সংগৃহীত প্রবন্ধ।"
     },
     {
-      "title_en": "Dramatic Works",
+      "title_en": "",
       "title_bn": "নাটকীয় রচনা",
       "year": "1920-1935",
       "desc_en": "Plays combining social commentary with artistic vision.",
@@ -47,32 +40,32 @@
     {
       "id": "t1",
       "_where": "Section 1 · Small label",
-      "en": "Literary Heritage",
-      "bn": "সাহিত্য ঐতিহ্য"
+      "en": "",
+      "bn": ""
     },
     {
       "id": "t2",
       "_where": "Section 1 · Heading",
-      "en": "Prose and Poems",
-      "bn": "গদ্য এবং কবিতা"
+      "en": "REMOVE",
+      "bn": "REMOVE PAGE"
     },
     {
       "id": "t3",
       "_where": "Section 1 · Paragraph",
-      "en": "A comprehensive collection of Nazrul's literary works across multiple genres.",
-      "bn": "একাধিক ধরনে নজরুলের সাহিত্য কর্মের একটি ব্যাপক সংগ্রহ।"
+      "en": "",
+      "bn": ""
     },
     {
       "id": "t4",
       "_where": "Section 2 · Paragraph",
-      "en": "Nazrul Islam was a prolific writer whose genius spanned poetry, drama, essays and journalism. His works remain powerful expressions of romance, social consciousness and artistic excellence.",
-      "bn": "নজরুল ইসলাম একজন বহুমুখী লেখক যার প্রতিভা কবিতা, নাটক, প্রবন্ধ এবং সাংবাদিকতা জুড়ে বিস্তৃত ছিল। তার কাজগুলি রোমান্স, সামাজিক সচেতনতা এবং শৈল্পিক উৎকর্ষতার শক্তিশালী প্রকাশ হিসাবে রয়ে গেছে।"
+      "en": "",
+      "bn": ""
     },
     {
       "id": "t5",
       "_where": "Section 2 · Text",
-      "en": "Literary Genres",
-      "bn": "সাহিত্য ধরন"
+      "en": "",
+      "bn": ""
     },
     {
       "id": "t6",

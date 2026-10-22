@@ -37,7 +37,7 @@ export default function AnnualNewsletterPage() {
             <p className="text-charcoal-700 text-sm lang-bn">{txt.t4.bn}</p>
           </div>
 
-          <div className="grid sm:grid-cols-2 gap-6">
+          <div className={newsletters.length === 1 ? "grid gap-6 max-w-md mx-auto" : "grid sm:grid-cols-2 gap-6"}>
             {newsletters.map((n, __i) => (
               <div
                 key={__i}

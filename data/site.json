@@ -9,8 +9,8 @@
     {
       "id": "t2",
       "_where": "Footer · Text",
-      "en": "A cultural institution in Dhaka dedicated to preserving and promoting the legacy of Kazi Nazrul Islam, the national poet of Bangladesh.",
-      "bn": "কাজী নজরুল ইসলাম, বাংলাদেশের জাতীয় কবির উত্তরাধিকার সংরক্ষণ ও প্রচারে নিবেদিত ঢাকার একটি সাংস্কৃতিক প্রতিষ্ঠান।"
+      "en": "",
+      "bn": ""
     },
     {
       "id": "t3",
@@ -69,8 +69,8 @@
     {
       "id": "t12",
       "_where": "Footer · Text",
-      "en": "Programs",
-      "bn": "কর্মসূচি"
+      "en": "Programs and Admission",
+      "bn": "কর্মসূচি ও ভর্তি"
     },
     {
       "id": "t13",
@@ -304,14 +304,6 @@
     },
     {
       "parent": "resources",
-      "href": "/prose-and-poems/",
-      "en": "Prose and Poems",
-      "bn": "গদ্য এবং কবিতা",
-      "sub_en": "Nazrul's literary works",
-      "sub_bn": "নজরুলের সাহিত্য কর্ম"
-    },
-    {
-      "parent": "resources",
       "href": "/annual-newsletter/",
       "en": "Annual Newsletter",
       "bn": "বার্ষিক নিউজলেটার",
@@ -321,18 +313,10 @@
     {
       "parent": "programs",
       "href": "/programs/",
-      "en": "Programs & Registration",
-      "bn": "কর্মসূচি ও নিবন্ধন",
-      "sub_en": "Courses & workshops",
-      "sub_bn": "কোর্স ও কর্মশালা"
-    },
-    {
-      "parent": "programs",
-      "href": "/admission/",
-      "en": "Admission",
-      "bn": "ভর্তি",
-      "sub_en": "How to apply",
-      "sub_bn": "আবেদন পদ্ধতি"
+      "en": "Programs and Admission",
+      "bn": "কর্মসূচি ও ভর্তি",
+      "sub_en": "Courses & workshops · How to apply",
+      "sub_bn": "কোর্স ও কর্মশালা · আবেদন পদ্ধতি"
     },
     {
       "parent": "programs",
@@ -352,19 +336,11 @@
     },
     {
       "parent": "corner",
-      "href": "/nazrul-song/",
-      "en": "Nazrul Song",
-      "bn": "নজরুল সংগীত",
-      "sub_en": "Musical compositions",
-      "sub_bn": "সংগীত রচনা"
-    },
-    {
-      "parent": "corner",
-      "href": "/nazrul-prose-and-poem/",
-      "en": "Prose and Poem",
-      "bn": "গদ্য এবং কবিতা",
-      "sub_en": "Literary works",
-      "sub_bn": "সাহিত্যকর্ম"
+      "href": "/about-nazrul/bidrohi/",
+      "en": "Bidrohi",
+      "bn": "বিদ্রোহী",
+      "sub_en": "Nazrul’s celebrated poem",
+      "sub_bn": "নজরুলের বিখ্যাত কবিতা"
     }
   ],
   "meta": [

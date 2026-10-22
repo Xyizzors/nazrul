@@ -21,16 +21,44 @@ const isActive = (item: NavItem, pathname: string) =>
 export default function Header() {
   const pathname = usePathname();
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [hiddenOnScroll, setHiddenOnScroll] = useState(false);
   const panelRef = useRef<HTMLDivElement>(null);
+  const lastScrollY = useRef(0);
 
   // Close the mobile menu whenever the route changes.
   useEffect(() => setMobileOpen(false), [pathname]);
+
+  // Keep the sticky header out of the way while scrolling down and reveal it on the way back up.
+  useEffect(() => {
+    lastScrollY.current = window.scrollY;
+
+    const handleScroll = () => {
+      const currentY = window.scrollY;
+      const delta = currentY - lastScrollY.current;
+
+      if (currentY < 80 || delta < -6 || mobileOpen) {
+        setHiddenOnScroll(false);
+      } else if (delta > 6) {
+        setHiddenOnScroll(true);
+      }
+
+      if (Math.abs(delta) > 6) lastScrollY.current = currentY;
+    };
+
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [mobileOpen]);
+
+  if (pathname.replace(/\/$/, "") === "/frontpage") return null;
 
   const iconBtn =
     "w-9 h-9 flex items-center justify-center rounded-full border border-charcoal-900/15 text-charcoal-700";
 
   return (
-    <header className="site-header">
+    <header
+      className={`site-header${hiddenOnScroll && !mobileOpen ? " site-header-hidden" : ""}`}
+      onFocusCapture={() => setHiddenOnScroll(false)}
+    >
       <div className="wrap flex items-center justify-between h-[76px] gap-4">
         <Link href="/" className="flex items-center gap-3 shrink-0">
           {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -42,9 +70,6 @@ export default function Header() {
           <div className="leading-tight">
             <div className="font-display text-[1.05rem] text-green-900 font-semibold">
               {bilingual(txt.t21.en, txt.t21.bn)}
-            </div>
-            <div className="text-[.68rem] tracking-wide text-charcoal-500 uppercase">
-              {bilingual(txt.t22.en, txt.t22.bn)}
             </div>
           </div>
         </Link>

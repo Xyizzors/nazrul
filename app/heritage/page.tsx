@@ -39,7 +39,7 @@ export default function HeritagePage() {
 
       <section className="section-pad">
         <div className="wrap max-w-3xl">
-          <span className="eyebrow">{bilingual(txt.t5.en, txt.t5.bn)}</span>
+          
           <h2 className="font-display text-3xl mt-4 text-green-900 font-medium">
             {bilingual(txt.t6.en, txt.t6.bn)}
           </h2>
@@ -56,9 +56,7 @@ export default function HeritagePage() {
       <section className="section-pad bg-cream-100">
         <div className="wrap">
           <div className="text-center max-w-xl mx-auto mb-12">
-            <span className="eyebrow justify-center">
-              {bilingual(txt.t7.en, txt.t7.bn)}
-            </span>
+            
             <h2 className="font-display text-3xl mt-4 text-green-900 font-medium">
               {bilingual(txt.t8.en, txt.t8.bn)}
             </h2>
@@ -89,9 +87,7 @@ export default function HeritagePage() {
       <section className="section-pad">
         <div className="wrap">
           <div className="text-center max-w-xl mx-auto mb-14">
-            <span className="eyebrow justify-center">
-              {bilingual(txt.t11.en, txt.t11.bn)}
-            </span>
+            
             <h2 className="font-display text-3xl mt-4 text-green-900 font-medium">
               {bilingual(txt.t12.en, txt.t12.bn)}
             </h2>
@@ -133,9 +129,7 @@ export default function HeritagePage() {
       <section className="section-pad bg-cream-100">
         <div className="wrap">
           <div className="text-center max-w-xl mx-auto mb-10">
-            <span className="eyebrow justify-center">
-              {bilingual(txt.t14.en, txt.t14.bn)}
-            </span>
+            
             <h2 className="font-display text-3xl mt-4 text-green-900 font-medium">
               {bilingual(txt.t15.en, txt.t15.bn)}
             </h2>

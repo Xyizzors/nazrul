@@ -43,20 +43,20 @@
     {
       "id": "t1",
       "_where": "Section 1 · Small label",
-      "en": "About Nazrul",
-      "bn": "নজরুল সম্পর্কে"
+      "en": "",
+      "bn": ""
     },
     {
       "id": "t2",
       "_where": "Section 1 · Heading",
       "en": "Kazi Nazrul Islam",
-      "bn": "কাজী নজরুল ইসলাম"
+      "bn": "জাতীয় কবি কাজী নজরুল ইসলাম"
     },
     {
       "id": "t3",
       "_where": "Section 1 · Paragraph",
       "en": "The life, literature and music of Bangladesh's national poet.",
-      "bn": "বাংলাদেশের জাতীয় কবির জীবন, সাহিত্য ও সংগীত।"
+      "bn": "কবির জীবন ও সৃষ্টিকর্ম"
     },
     {
       "id": "t4",
@@ -73,8 +73,8 @@
     {
       "id": "t6",
       "_where": "Section 2 · Text",
-      "en": "The National Poet",
-      "bn": "জাতীয় কবি"
+      "en": "The National Poet Kazi Nazrul Islam",
+      "bn": "জাতীয় কবি কাজী নজরুল ইসলাম"
     },
     {
       "id": "t7",
@@ -246,6 +246,90 @@
       "photo": "/assets/img/uploads/talim-hossain-with-poet.jpg",
       "en": "Poet Talim Hossain feeding the poet",
       "bn": "কবিকে খাওয়াচ্ছেন কবি তালিম হোসেন"
+    },
+    {
+      "label": "Portrait 1",
+      "photo": "/assets/img/uploads/nazrul-photo-01.jpg",
+      "en": "",
+      "bn": ""
+    },
+    {
+      "label": "Portrait 2 (garden)",
+      "photo": "/assets/img/uploads/nazrul-photo-02.jpg",
+      "en": "",
+      "bn": ""
+    },
+    {
+      "label": "Portrait 3 (garland)",
+      "photo": "/assets/img/uploads/nazrul-photo-03.jpg",
+      "en": "",
+      "bn": ""
+    },
+    {
+      "label": "Portrait 4 (seated)",
+      "photo": "/assets/img/uploads/nazrul-photo-04.jpg",
+      "en": "",
+      "bn": ""
+    },
+    {
+      "label": "Portrait 5 (robe)",
+      "photo": "/assets/img/uploads/nazrul-photo-05.jpg",
+      "en": "",
+      "bn": ""
+    },
+    {
+      "label": "Portrait 6 (young)",
+      "photo": "/assets/img/uploads/nazrul-photo-06.jpg",
+      "en": "",
+      "bn": ""
+    },
+    {
+      "label": "Portrait 7 (shawl)",
+      "photo": "/assets/img/uploads/nazrul-photo-07.jpg",
+      "en": "",
+      "bn": ""
+    },
+    {
+      "label": "Portrait 8 (fur cap)",
+      "photo": "/assets/img/uploads/nazrul-photo-08.jpg",
+      "en": "",
+      "bn": ""
+    },
+    {
+      "label": "Portrait 9 (flute)",
+      "photo": "/assets/img/uploads/nazrul-photo-09.jpg",
+      "en": "",
+      "bn": ""
+    },
+    {
+      "label": "Playing an instrument",
+      "photo": "/assets/img/uploads/nazrul-photo-10.jpg",
+      "en": "",
+      "bn": ""
+    },
+    {
+      "label": "Car with family",
+      "photo": "/assets/img/uploads/nazrul-photo-11.jpg",
+      "en": "",
+      "bn": ""
+    },
+    {
+      "label": "Manuscript, Bangla song",
+      "photo": "/assets/img/uploads/nazrul-photo-12.jpg",
+      "en": "A page of Nazrul’s handwritten manuscript of a Bangla song.",
+      "bn": "নজরুলের নিজের হাতের লেখা একটি বাংলা গানের পাণ্ডুলিপি।"
+    },
+    {
+      "label": "Manuscript, English song",
+      "photo": "/assets/img/uploads/nazrul-photo-13.jpg",
+      "en": "Nazrul’s handwritten English song, dated 31-9-41, with manuscript pages in Hindi and Urdu below.",
+      "bn": "নজরুলের হাতে লেখা ইংরেজি গান (তারিখ ৩১-৯-৪১); নিচে হিন্দি ও উর্দু পাণ্ডুলিপির পাতা।"
+    },
+    {
+      "label": "Family tree",
+      "photo": "/assets/img/uploads/nazrul-photo-14.jpg",
+      "en": "The Nazrul family tree.",
+      "bn": "নজরুলের বংশলতিকা।"
     }
   ]
 }

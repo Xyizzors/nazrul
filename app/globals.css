@@ -2,11 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* ===================================================================
-   NAZRUL ACADEMY — PROTOTYPE DESIGN SYSTEM
-   Palette : deep green / warm cream / muted red / charcoal / gold hairline
-   Type    : Fraunces + Noto Serif Bengali (display) · Work Sans + Hind Siliguri (body)
-   =================================================================== */
+/* Shared visual system for the bilingual Nazrul Academy site. */
 
 :root{
   /* --- colour tokens --- */
@@ -30,21 +26,22 @@
   --gold-500:#B98A2E;
   --gold-300:#D7B36A;
 
-  --radius-sm:4px;
-  --radius-md:8px;
+  --radius-sm:3px;
+  --radius-md:6px;
 
-  --shadow-card: 0 1px 2px rgba(35,31,27,.06), 0 8px 24px -12px rgba(35,31,27,.18);
-  --shadow-lift: 0 12px 32px -14px rgba(15,36,30,.35);
+  --shadow-card: 0 2px 10px rgba(15,36,30,.07);
+  --shadow-lift: 0 8px 20px rgba(15,36,30,.12);
 }
 
 /* ---------- fonts ---------- */
-@font-face{ font-family:'Fraunces'; font-display:swap; }
-
 body{
   background:var(--cream-050);
   color:var(--charcoal-900);
   font-family:'Work Sans', 'Hind Siliguri', sans-serif;
+  font-size:16px;
+  line-height:1.6;
   -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
 }
 
 .font-display-en{ font-family:'Fraunces', 'Noto Serif Bengali', serif; }
@@ -79,16 +76,16 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 
 /* ---------- layout helpers ---------- */
 .wrap{ max-width:1240px; margin-inline:auto; padding-inline:24px; }
-@media(min-width:768px){ .wrap{ padding-inline:40px; } }
+@media(min-width:768px){ .wrap{ padding-inline:36px; } }
 
 .section-pad{ padding-block:72px; }
 @media(min-width:768px){ .section-pad{ padding-block:104px; } }
 
 .eyebrow{
-  font-size:.72rem; letter-spacing:.18em; text-transform:uppercase;
+  font-size:.75rem; letter-spacing:.12em; text-transform:uppercase;
   color:var(--gold-500); font-weight:600; display:inline-flex; align-items:center; gap:10px;
 }
-.eyebrow::before{ content:""; width:22px; height:1px; background:var(--gold-500); display:inline-block; }
+.eyebrow::before{ content:none; }
 
 /* ---------- signature motif: alpona hairline divider ---------- */
 .motif-divider{
@@ -135,8 +132,8 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 /* ---------- buttons ---------- */
 .btn{
   display:inline-flex; align-items:center; justify-content:center; gap:8px;
-  padding:13px 26px; border-radius:2px; font-weight:600; font-size:.92rem;
-  letter-spacing:.01em; transition:all .18s ease; white-space:nowrap; cursor:pointer;
+  min-height:46px; padding:12px 24px; border-radius:var(--radius-sm); font-weight:600; font-size:.92rem;
+  letter-spacing:.01em; transition:background-color .18s ease, color .18s ease, border-color .18s ease, transform .18s ease; white-space:nowrap; cursor:pointer;
   border:1px solid transparent;
 }
 .btn-primary{ background:var(--green-900); color:var(--cream-050); }
@@ -152,10 +149,15 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 /* ---------- header / nav ---------- */
 .site-header{
   position:sticky; top:0; z-index:50;
-  background:rgba(251,247,236,.92);
-  backdrop-filter:blur(8px);
-  border-bottom:1px solid rgba(35,31,27,.08);
+  background:var(--cream-050);
+  border-bottom:1px solid rgba(35,31,27,.12);
+  opacity:1;
+  transform:translate3d(0,0,0);
+  transition:transform 420ms cubic-bezier(.22,1,.36,1), opacity 220ms ease;
+  will-change:transform,opacity;
 }
+.site-header-hidden{ transform:translate3d(0,-105%,0); opacity:0; pointer-events:none; }
+@media(prefers-reduced-motion:reduce){ .site-header{ transition:none; } }
 .nav-link{
   position:relative; font-size:.88rem; font-weight:600; color:var(--charcoal-700);
   padding:8px 2px;
@@ -174,17 +176,17 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 }
 .lang-switch{
   font-size:.8rem; font-weight:700; letter-spacing:.02em;
-  border:1px solid rgba(35,31,27,.18); border-radius:999px; overflow:hidden; display:inline-flex;
+  border:1px solid rgba(35,31,27,.2); border-radius:var(--radius-sm); overflow:hidden; display:inline-flex;
 }
 .lang-switch button{ padding:6px 13px; background:transparent; color:var(--charcoal-700); }
 .lang-switch button[aria-pressed="true"]{ background:var(--green-900); color:var(--cream-050); }
 
 /* ---------- cards ---------- */
 .card{
-  background:#fff; border:1px solid rgba(35,31,27,.08); border-radius:var(--radius-sm);
+  background:var(--cream-050); border:1px solid rgba(35,31,27,.1); border-radius:var(--radius-sm);
   box-shadow:var(--shadow-card); transition:transform .2s ease, box-shadow .2s ease;
 }
-.card:hover{ transform:translateY(-3px); box-shadow:var(--shadow-lift); }
+.card:hover{ transform:translateY(-2px); box-shadow:var(--shadow-lift); }
 
 .tag-pill{
   font-size:.68rem; font-weight:700; letter-spacing:.06em; text-transform:uppercase;
@@ -221,9 +223,29 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 }
 .demo-badge:hover{ opacity:.92; }
 
+/* Keep common controls and content blocks visually aligned across routes. */
+button, input, textarea, select{ font:inherit; }
+button, a{ -webkit-tap-highlight-color:transparent; }
+button:disabled{ cursor:not-allowed; opacity:.55; }
+img{ max-width:100%; }
+.card, .ph, .ph-photo, [data-zoom] img{ border-radius:var(--radius-sm); }
+.card :is(h2,h3,h4){ line-height:1.3; }
+.card :is(p,li){ line-height:1.55; }
+.btn:active{ transform:translateY(1px); }
+.nav-link, .footer-link{ transition:color .18s ease; }
+
+@media(max-width:640px){
+  .wrap{ padding-inline:20px; }
+  .section-pad{ padding-block:56px; }
+  .btn{ min-height:44px; padding-inline:18px; }
+}
+
 @media (prefers-reduced-motion: reduce){
   *{ animation:none !important; transition:none !important; }
 }
 
 /* mobile nav panel */
 #mobileNav{ transition:max-height .25s ease; overflow:hidden; }
+
+/* Click-to-expand photos (see components/ImageZoom.tsx) */
+[data-zoom] img{ cursor:zoom-in; }
